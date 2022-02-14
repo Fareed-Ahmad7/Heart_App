@@ -1,0 +1,12 @@
+$('#button').text('Flutter!')
+<button id="button">Want to play?</button>
+const showText = () => {
+    $('#letters').text('Flutter!');
+}
+
+
+
+$(function() {
+  $(".heart").on("click", function() {
+    $(this).toggleClass("is-active");
+    $('#button').text('Flutter!');
